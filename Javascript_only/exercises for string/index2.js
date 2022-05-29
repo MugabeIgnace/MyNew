@@ -5,12 +5,12 @@ console.log(company.length);  //Print the length of the string on the browser co
 console.log(company.toUpperCase());  //Change all the string to capital letters using toUpperCase() method
 console.log(company.toLowerCase());  //Change all the string to lowercase letters using toLowerCase() method
 
- // Cut(slice) out the first word of the string using slice, substr() or substring() method
+// Cut(slice) out the first word of the string using slice, substr() or substring() method
 console.log(company.slice(3, 5));
 console.log(company.substring(4, 6));
 // Use substr to slice out the phase because because because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
- var ne = 'You cannot end a sentence with because because because is a conjunction';
- console.log(ne.substring(31,55));
+var ne = 'You cannot end a sentence with because because because is a conjunction';
+console.log(ne.substring(31, 55));
 /* Check if the string contains a word Academy using includes() method*/
 console.log(company.includes('Academy'));
 // Split the string into array using split() method
@@ -18,8 +18,8 @@ console.log(company.split(''));
 //Split the string Coding Academy at the space using split() method
 console.log(company.split());
 
- //'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.
-let technologyCompany = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' ;
+//'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.
+let technologyCompany = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon';
 console.log(technologyCompany.split(", "));
 
 //Change Coding Academy to Microsoft Academy using replace() method.
@@ -79,4 +79,4 @@ totalSalary = incomePerMonth * 12;
 total_online_Income = onlineIncome_Monthly * 12;
 
 total_annual_income = totalSalary + total_online_Income + bonusIncome;
-console.log('His annual income are : ', + total_annual_income +' euro.');
+console.log('His annual income are : ', + total_annual_income + ' euro.');

@@ -6,8 +6,8 @@ The JavaScript typeof operator uses to check different data types. Check the dat
 */
 let var1 = "My name";
 let var2 = true;
-let var3 = null;
-let var4 = "";
+let var3 ;
+let var4 = null;
 
 console.log(typeof(var1));
 console.log(typeof(var2));

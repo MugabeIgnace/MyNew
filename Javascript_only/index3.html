@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Weather</title>
+</head>
+
+<body>
+    <h1><u>Which Season of the year</u></h1>
+
+
+    <script>
+        /*
+        Check if the season is Autumn, Winter, Spring or Summer. If the user input is:
+
+        September, October or November, the season is Autumn.
+        December, January or February, the season is Winter.
+        March, April or May, the season is Spring
+        June, July or August, the season is Summer
+        */
+
+        var month = prompt('Which month ?');
+        var season = month.toLowerCase();
+        if (season === 'september' || season === 'october' || season === 'november') {
+            console.log("Autumn");
+        } else if (season === 'december' || season === 'january' || season === 'february') {
+            console.log("Winter");
+        } else if (season === 'march' || season === 'april' || season === 'may') {
+            console.log("Spring");
+        } else if (season === 'june' || season === 'july' || season === 'august') {
+            console.log("Summer");
+        } else {
+            prompt("NO! Which month ?");
+        }
+    </script>
+</body>
+
+</html>
